@@ -19,8 +19,12 @@ $color-accent-transparent: rgba(189, 19, 19, 0.8);
     font-size: 100%;
     font-weight: lighter;
 }
+html {
+    background-color: $color-background;
+}
 
 body {
+    background-color: white;
 	max-width: 1200px;
     margin: 0 auto;
     height: 100%;
@@ -35,13 +39,10 @@ h1 {
 .box-one {
     display: flex;
     flex-direction: column;
-    background-color: $color-background;
     position: relative;
     width: 100%;
     padding: 2% 5%;
-    //height: 100%;
-    //text-align: center;
-    background-color: $color-background; 
+
 }
 
 .team_members {
@@ -52,20 +53,21 @@ h1 {
 }
 
 .person {
+    border: 0.2px solid $color-background;
     background-color: whitesmoke;
     margin: 1%;
     width: 30%;
     padding: 1%;
     box-shadow: 3px 3px 5px $color-shadow;
     border-radius: 5px;
-    position: relative; //test
+    position: relative; 
 }
 
 
 .person img {
-    display: block; //test
+    display: block; 
     width: 100%;
-    height: auto; //test
+    height: auto; 
 }
 
 .person p {
@@ -75,7 +77,7 @@ h1 {
     margin: 2% auto;
 }
 
-.overlay { //test
+.overlay { 
     position: absolute;
     top: 0;
     bottom: 0;
@@ -89,11 +91,11 @@ h1 {
     border-radius: 5px;
 }
 
-.person:hover .overlay { //test
+.person:hover .overlay { 
     opacity: 1;
 }
 
-.overlay_text { //test
+.overlay_text { 
   color: white;
   font-size: 20px;
   position: absolute;

@@ -6,7 +6,7 @@
 	<link rel="stylesheet" href="style/index.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-	<script src="script/date.js" async defer></script>
+	<script src="script/quotecalculation.js" async defer></script>
 </head>
 <body>
 	<header>
@@ -40,9 +40,9 @@
 					<div class="formpair">
 						<label for="country">Country:</label><br>
 						<select name="country" id="country">
-							<option value="austria">Austria</option>
-							<option value="hungary">Hungary</option>
-							<option value="greece">Greece</option>
+							<option id="austria" value="austria">Austria</option>
+							<option id="hungary" value="hungary">Hungary</option>
+							<option id="greece" value="greece">Greece</option>
 						</select><br>
 					</div>
 					<div class="formpair">
@@ -51,7 +51,7 @@
 					</div>
 					<input type="button" id="buttoncalc" value="Calculate">
 				</form>
-				<h2 id="outputcalc">Get your quote now</h2>
+				<h2 id="outputcalc">Fill out the form to get your quote now</h2>
 			</div>
 			<div class="box-one-text">
 				<h2>Un-complicating car coverage</h2>

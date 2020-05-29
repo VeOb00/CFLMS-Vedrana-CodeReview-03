@@ -63,7 +63,11 @@ footer div.footer {
   font-size: 100%;
   font-weight: lighter; }
 
+html {
+  background-color: #CECECE; }
+
 body {
+  background-color: white;
   max-width: 1200px;
   margin: 0 auto;
   height: 100%; }
@@ -76,11 +80,9 @@ h1 {
 .box-one {
   display: flex;
   flex-direction: column;
-  background-color: #CECECE;
   position: relative;
   width: 100%;
-  padding: 2% 5%;
-  background-color: #CECECE; }
+  padding: 2% 5%; }
 
 .team_members {
   display: flex;
@@ -89,6 +91,7 @@ h1 {
   width: 100%; }
 
 .person {
+  border: 0.2px solid #CECECE;
   background-color: whitesmoke;
   margin: 1%;
   width: 30%;
