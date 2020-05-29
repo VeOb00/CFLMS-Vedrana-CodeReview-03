@@ -64,7 +64,7 @@ footer div.footer {
   font-weight: lighter; }
 
 html {
-  background-color: #CECECE; }
+  background-color: #ebebeb; }
 
 body {
   background-color: white;
@@ -129,7 +129,7 @@ h1 {
 
 .overlay_text {
   color: white;
-  font-size: 20px;
+  font-size: 1vw;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -138,47 +138,83 @@ h1 {
   transform: translate(-50%, -50%);
   text-align: center; }
 
-/*
-.person {
-  position: relative;
-  width: 50%;
-}
+.overlay_text p {
+  margin: 5% auto; }
 
-.image {
-  display: block;
-  width: 100%;
-  height: auto;
-}
+.overlay p:first-child {
+  font-size: 2.5vw; }
 
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #008CBA;
-}
+@media screen and (max-width: 600px) {
+  * {
+    font-size: 90%; }
 
-.container:hover .overlay {
-  opacity: 1;
-}
+  h3 {
+    font-size: 200%; }
 
-.text {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
+  .box-one-form h1 {
+    padding: 0 1%; }
 
-*/
+  #carinsurance {
+    flex-flow: column;
+    justify-content: stretch; }
+
+  .formpair {
+    width: 100%;
+    align-self: center; }
+
+  label, input, select {
+    font-size: 250%; }
+
+  input, select {
+    font-size: 300%; }
+
+  #buttoncalc {
+    font-size: 350%; }
+
+  .box-two {
+    flex-flow: column;
+    justify-content: center; }
+
+  .box-two-inside {
+    width: 80%;
+    align-self: center; }
+
+  .box-two-inside p, .box-two-inside h4 {
+    font-size: 150%; }
+
+  .box-two-inside li {
+    font-size: 150%; }
+
+  nav li {
+    margin: 0 4%;
+    font-size: 250%; }
+
+  img.logo {
+    height: auto;
+    width: 100%;
+    padding: 1% 5%; }
+
+  div.header img.banner {
+    display: none; }
+
+  .footer img.logo {
+    width: 40%;
+    align-self: center;
+    margin: 5% auto; }
+
+  .footer p {
+    font-size: 150%; }
+
+  .person {
+    width: 45%; }
+
+  .overlay_text {
+    font-size: 2.1vw; }
+
+  .overlay p:first-child {
+    font-size: 4vw; }
+
+  .person p {
+    font-size: 4vw; } }
 
 /*# sourceMappingURL=team.css.map */

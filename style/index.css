@@ -5,7 +5,7 @@ header nav ul {
   padding: 0.5% 1%;
   margin: 0;
   list-style: none;
-  background-color: #BD1313; }
+  background-color: #bd1313; }
 
 footer nav ul {
   display: flex;
@@ -64,7 +64,11 @@ footer div.footer {
   font-size: 100%;
   font-weight: lighter; }
 
+html {
+  background-color: #ebebeb; }
+
 body {
+  background-color: white;
   max-width: 1200px;
   margin: 0 auto;
   height: 100%; }
@@ -135,7 +139,8 @@ input, select {
   border: none;
   font-size: 200%;
   color: white;
-  border-radius: 10px; }
+  border-radius: 10px;
+  align-self: center; }
 
 #outputcalc {
   color: green;
@@ -164,12 +169,15 @@ input, select {
   margin: 3%; }
 
 h3 {
-  font-size: 150%;
+  font-size: 200%;
   margin: 0; }
 
 .box-two-inside p, .box-two-inside h4 {
   margin: 0;
   font-size: 130%; }
+
+.box-two-inside h4 {
+  font-weight: bold; }
 
 .box-two-inside ul {
   list-style: none; }
@@ -189,5 +197,78 @@ sup {
 
 ul {
   list-style: none; }
+
+@media screen and (max-width: 600px) {
+  * {
+    font-size: 90%; }
+
+  h3 {
+    font-size: 200%; }
+
+  .box-one-form h1 {
+    padding: 0 1%; }
+
+  #carinsurance {
+    flex-flow: column;
+    justify-content: stretch; }
+
+  .formpair {
+    width: 100%;
+    align-self: center; }
+
+  label, input, select {
+    font-size: 250%; }
+
+  input, select {
+    font-size: 300%; }
+
+  #buttoncalc {
+    font-size: 350%; }
+
+  .box-two {
+    flex-flow: column;
+    justify-content: center; }
+
+  .box-two-inside {
+    width: 80%;
+    align-self: center; }
+
+  .box-two-inside p, .box-two-inside h4 {
+    font-size: 150%; }
+
+  .box-two-inside li {
+    font-size: 150%; }
+
+  nav li {
+    margin: 0 4%;
+    font-size: 250%; }
+
+  img.logo {
+    height: auto;
+    width: 100%;
+    padding: 1% 5%; }
+
+  div.header img.banner {
+    display: none; }
+
+  .footer img.logo {
+    width: 40%;
+    align-self: center;
+    margin: 5% auto; }
+
+  .footer p {
+    font-size: 150%; }
+
+  .person {
+    width: 45%; }
+
+  .overlay_text {
+    font-size: 2.1vw; }
+
+  .overlay p:first-child {
+    font-size: 4vw; }
+
+  .person p {
+    font-size: 4vw; } }
 
 /*# sourceMappingURL=index.css.map */
