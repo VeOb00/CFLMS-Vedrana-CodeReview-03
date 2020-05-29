@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Insurance CF</title>
+	<link rel="stylesheet" href="style/index.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+	<script src="script/date.js" async defer></script>
+</head>
+<body>
+	<header>
+		<div class="header">
+			<img class="logo" src="media/logo.png" alt="Insurance CF Logo">
+			<img class="banner" src="media/banner.png" alt="Full Stack Web Development course banner">
+		</div>
+
+		<nav>
+			<ul>
+				<li><a href="index.html" title="Home">Home</a></li>
+				<li><a href="team.html" title="Team">Team</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<main>
+		<div class="box-one">
+			<h1>Car insurance</h1>
+			<div class="box-one-form">
+				<h1>Great coverage begins with a custom quote</h1>
+				<form id="carinsurance">
+					<div class="formpair">
+						<label for="fullname">Your name:</label><br>
+						<input type="text" id="fullname" name="fullname"><br>
+					</div>
+					<div class="formpair">
+						<label for="age">Age:</label><br>
+						<input type="number" id="age" name="age"><br>
+					</div>
+					<div class="formpair">
+						<label for="country">Country:</label><br>
+						<select name="country" id="country">
+							<option value="austria">Austria</option>
+							<option value="hungary">Hungary</option>
+							<option value="greece">Greece</option>
+						</select><br>
+					</div>
+					<div class="formpair">
+						<label for="horsepower">Horsepower of your car:</label><br>
+						<input type="number" id="horsepower" name="horsepower"><br>
+					</div>
+					<input type="button" id="buttoncalc" value="Calculate">
+				</form>
+				<h2 id="outputcalc">Get your quote now</h2>
+			</div>
+			<div class="box-one-text">
+				<h2>Un-complicating car coverage</h2>
+				<p>
+					Understanding your coverage options shouldn't be so hard.<br>
+					We'll guide you through avaliable coverage types, starting with who and what is covered.
+				</p>
+			</div>
+		</div>
+		<div class="box-two">
+			<div class="box-two-inside">
+				<h3>What comes standard</h3>
+				<p>The coverage you need</p>
+				<ul>
+					<li>Bodily Injury Liability</li>
+					<li>Property Damage</li>
+					<li>Medical Payments</li>
+				</ul>
+				<h4>Benefits</h4>
+				<p>12-month rate guarantee &#124; 24&#47;7 customer service &#124; Liftime Repair Guarantee</p>
+			</div>
+			<div class="box-two-inside">
+				<h3>Add-on protection &#38; coverage</h3>
+				<p>For more peace of mind</p>
+				<ul>
+					<li>Better Car Replacement</li>
+					<li>Towing &#38; Labor</li>
+					<li>Rental Car Coverage</li>
+				</ul>
+				<h4>Earned Benefits</h4>
+				<p>Accident Forgievness<sup>1</sup> &#124; New Car Replacement&#8482;</p>
+			</div>
+		</div>
+	</main>	
+	
+	<footer>
+		<nav>
+			<ul>
+				<li><a href="index.html" title="Home">Home</a></li>
+				<li><a href="team.html" title="Team">Team</a></li>
+			</ul>
+		</nav>
+		<div class="footer">
+			<img class="logo" src="media/logo-inv.png" alt="Insurance CF Logo">
+			<p>Vedrana - CodeFactory 2020</p>
+		</div>
+	</footer>
+
+	
+</body>
+</html>

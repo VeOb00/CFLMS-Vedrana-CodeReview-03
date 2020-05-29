@@ -1,0 +1,19 @@
+header div.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: $color-header;
+	padding: 2%;
+	margin: 0;
+}
+
+// div.header 
+img.logo {
+	height: auto;
+	width: 25%;
+}
+
+div.header img.banner {
+	width: 60%;
+	height: auto;
+}

@@ -1,0 +1,193 @@
+@charset "UTF-8";
+header nav ul {
+  display: flex;
+  width: 100%;
+  padding: 0.5% 1%;
+  margin: 0;
+  list-style: none;
+  background-color: #BD1313; }
+
+footer nav ul {
+  display: flex;
+  width: 100%;
+  padding: 0.5% 1%;
+  margin: 0;
+  list-style: none;
+  background-color: #171717; }
+
+nav li a {
+  text-decoration: none;
+  color: white; }
+
+nav li {
+  margin: 0 1%;
+  font-size: 150%; }
+
+header div.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #FFF3F3;
+  padding: 2%;
+  margin: 0; }
+
+img.logo {
+  height: auto;
+  width: 25%; }
+
+div.header img.banner {
+  width: 60%;
+  height: auto; }
+
+footer {
+  margin-top: 5%;
+  background-color: #171717;
+  color: white; }
+
+footer div.footer {
+  padding: 0 2%;
+  text-align: center;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center; }
+
+.footer img.logo {
+  align-self: flex-end;
+  width: 20%;
+  margin: 3% 0; }
+
+*, *:before, *:after {
+  box-sizing: border-box; }
+
+* {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 100%;
+  font-weight: lighter; }
+
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 100%; }
+
+h1 {
+  font-size: 300%;
+  margin: 0; }
+
+h2 {
+  font-size: 120%;
+  margin-bottom: 1%; }
+
+.box-one h1 {
+  color: white;
+  text-align: left;
+  margin-top: 3%;
+  padding-left: 3%; }
+
+.box-one-form h1 {
+  color: #171717;
+  text-align: center;
+  padding: 0 25%;
+  margin-bottom: 3%; }
+
+.box-one {
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../media/traffic-332857_1920.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  text-align: center; }
+
+.box-one-form {
+  padding: 0 8% 3%;
+  margin: 2% 5%;
+  text-align: center;
+  background-color: rgba(235, 235, 235, 0.8);
+  border: 2px solid #171717;
+  box-shadow: 5px 5px 3px rgba(23, 23, 23, 0.2);
+  position: relative;
+  z-index: top; }
+
+#carinsurance {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  text-align: left; }
+
+.formpair {
+  width: 40%;
+  margin: 1% 0; }
+
+label, input, select {
+  width: 100%;
+  font-size: 130%; }
+
+input, select {
+  font-size: 150%;
+  padding: 1%; }
+
+#buttoncalc {
+  flex-basis: content;
+  background-color: green;
+  margin: 5% 35%;
+  border: none;
+  font-size: 200%;
+  color: white;
+  border-radius: 10px; }
+
+#outputcalc {
+  color: green;
+  font-size: 250%; }
+
+.box-one-text {
+  background-color: #CECECE;
+  font-size: 200%;
+  margin-top: -10%;
+  padding: 8% 18% 5%; }
+
+.box-one-text p {
+  margin: 0; }
+
+.box-two {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between; }
+
+.box-two-inside {
+  width: 43%;
+  border: 1px solid #CECECE;
+  border-top: 2px solid #171717;
+  box-shadow: 3px 3px 5px rgba(23, 23, 23, 0.2);
+  padding: 3%;
+  margin: 3%; }
+
+h3 {
+  font-size: 150%;
+  margin: 0; }
+
+.box-two-inside p, .box-two-inside h4 {
+  margin: 0;
+  font-size: 130%; }
+
+.box-two-inside ul {
+  list-style: none; }
+
+.box-two-inside ul li:before {
+  content: '✓';
+  color: green;
+  font-size: 180%;
+  margin-right: 2%;
+  margin-left: -40px; }
+
+.box-two-inside li {
+  font-size: 130%; }
+
+sup {
+  font-size: 60%; }
+
+ul {
+  list-style: none; }
+
+/*# sourceMappingURL=index.css.map */
