@@ -11,7 +11,7 @@ function calculateInsurance() {
     }
 
     if (age < 16 || age > 100) {
-        alert(`Please check your age input.`)
+        alert(`Please check your age input. Please consider the legal driving age.`)
     }
     
     if (document.getElementById('country').value == "austria") {
