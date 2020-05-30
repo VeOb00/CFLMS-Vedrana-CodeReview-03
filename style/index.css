@@ -272,5 +272,8 @@ ul {
 
   .person p {
     font-size: 4vw; } }
+@media screen and (max-width: 1065px) {
+  .box-one-form h1 {
+    padding: 0 1%; } }
 
 /*# sourceMappingURL=index.css.map */
