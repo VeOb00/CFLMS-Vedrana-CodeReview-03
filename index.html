@@ -30,15 +30,15 @@
 				<h1>Great coverage begins with a custom quote</h1>
 				<form id="carinsurance">
 					<div class="formpair">
-						<label for="fullname">Your name:</label><br>
-						<input type="text" id="fullname" name="fullname"><br>
+						<label for="fullname">Your name: <sup>*</sup></label><br>
+						<input type="text" id="fullname" name="fullname" required><br>
 					</div>
 					<div class="formpair">
-						<label for="age">Age:</label><br>
-						<input type="number" id="age" name="age"><br>
+						<label for="age">Age: <sup>*</sup></label><br>
+						<input type="number" id="age" name="age" required><br>
 					</div>
 					<div class="formpair">
-						<label for="country">Country:</label><br>
+						<label for="country">Country: <sup>*</sup></label><br>
 						<select name="country" id="country">
 							<option id="austria" value="austria">Austria</option>
 							<option id="hungary" value="hungary">Hungary</option>
@@ -46,8 +46,8 @@
 						</select><br>
 					</div>
 					<div class="formpair">
-						<label for="horsepower">Horsepower of your car:</label><br>
-						<input type="number" id="horsepower" name="horsepower"><br>
+						<label for="horsepower">Horsepower of your car: <sup>*</sup></label><br>
+						<input type="number" id="horsepower" name="horsepower" required><br>
 					</div>
 					<input type="button" id="buttoncalc" value="Calculate">
 				</form>
